@@ -82,4 +82,4 @@ Contribuições são bem-vindas! Siga os seguintes passos:
 
 ## Contato
 
-Caso tenha alguma dúvida ou sugestão, entre em contato com os organizadores através do [LinkedIn](https://www.linkedin.com/in/seu-perfil) ou envie um email para `contato@highsessions.com.br`.
+Caso tenha alguma dúvida ou sugestão, entre em contato com os organizadores através do [LinkedIn](https://www.linkedin.com/in/sandromendesxx) ou envie um email para `highsessions@gmail.com.br`.
