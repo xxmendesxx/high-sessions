@@ -1,0 +1,45 @@
+high-sessions/
+├── frontend/
+│   ├── public/
+│   │   └── index.html
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Header.js
+│   │   │   ├── Footer.js
+│   │   │   ├── EventCard.js
+│   │   │   └── UserProfile.js
+│   │   ├── pages/
+│   │   │   ├── Home.js
+│   │   │   ├── Events.js
+│   │   │   ├── Profile.js
+│   │   │   └── Login.js
+│   │   ├── services/
+│   │   │   └── supabase.js
+│   │   ├── hooks/
+│   │   │   └── useSupabase.js
+│   │   ├── styles/
+│   │   │   └── index.css
+│   │   ├── utils/
+│   │   │   └── helpers.js
+│   │   ├── App.js
+│   │   └── index.js
+│   ├── package.json
+│   └── tailwind.config.js
+├── n8n/
+│   ├── workflows/
+│   │   ├── event-creation.json
+│   │   ├── user-registration.json
+│   │   └── content-moderation.json
+├── supabase/
+│   ├── functions/
+│   │   ├── create-event/
+│   │   │   └── index.ts
+│   │   ├── get-events/
+│   │   │   └── index.ts
+│   │   └── update-profile/
+│   │       └── index.ts
+│   └── migrations/
+│       ├── 20230101000000_create_users_table.sql
+│       └── 20230101000001_create_events_table.sql
+├── README.md
+└── .env

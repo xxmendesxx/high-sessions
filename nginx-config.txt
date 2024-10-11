@@ -1,0 +1,20 @@
+server {
+    listen 80;
+    server_name seu_dominio.com www.seu_dominio.com;
+
+    root /caminho/para/high-sessions/build;
+    index index.html;
+
+    location / {
+        try_files $uri $uri/ /index.html;
+    }
+
+    location /api {
+        proxy_pass http://localhost:3000;  # Se você tiver um backend Node.js
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_cache_bypass $http_upgrade;
+    }
+}
